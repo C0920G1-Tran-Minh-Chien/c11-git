@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV cá nhân</title>
+    <style>
+        .header {
+            background-color: darkgreen;
+            height: 100px;
+            color: red;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .footer {
+            background-color: yellow;
+            height: 50px
+        }
+        .content {
+            background-color: aqua;
+            height: 500px
+        }
+        .content-left{
+            background-color: rebeccapurple;
+            width: 30%;
+            float: left;
+            height: 100%;
+            margin-right: 20px;
+        }
+        .content-right {
+            background-color: orange;
+            width: 65%;
+            float: left;
+            height: 100%;
+            padding-left: 50px;
+
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <div class="header" >
+        <h1>Trang CV cá nhân</h1>
+    </div>
+
+    <div class="content" >
+        <div class="content-left" > Content Trái</div>
+        <div class="content-right" > Content Phải</div>
+    </div>
+
+    <div class="footer">
+        Footer
+    </div>
+</div>
+
+</body>
+</html>
