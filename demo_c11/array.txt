@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+
+</body>
+<script>
+    // <!--Cách 1-->
+    //   index  0  1  2  3   4   5   6   7  8  9  10
+    // let arr = [ 1, 2, 3, 4 , 10, 9 , 8 , 7, 6, 5];
+    //
+    //
+    // arr[10] = 11;
+    // document.write(arr.length + "<br>")
+    //
+    // document.write("Giá trị " + arr) ;
+
+    //     Cách 2
+    //     let arrName2 = new Array(1, 2, 3);
+
+    //     Cách 3
+    //     let arr = Array(10, 9, 8, 7, 6, 5);
+    //     document.write(arr)
+
+    //    Duyệt mảng 1 chiều.
+    //   index  0  1  2  3   4   5   6   7  8  9
+    // let arr = [1, 2, 3, 4, 10, 9, 8, 7, 6, 5];
+    //
+    // document.write("Giá trị " + arr);
+    // document.write("<br>")
+
+    // for (let i = arr.length - 1; i >= 0; i--) {
+    //     arr[i] = 9;
+    //     document.write("Giá trị tại vị trí index " + i + " Của mảng là: " + arr[i]);
+    //     document.write("<br>");
+    //
+    // }
+    //
+    // for (let item of arr) {
+    //     item = 1;
+    //     // document.write("<br>");
+    // }
+    // document.write(arr);
+    //
+    // document.write("<br>");
+    // for (let item in arr) {
+    //     document.write(item);
+    //     // document.write("<br>");
+    // }
+    //    for thường: Duyệt mảng tùy biến, duyệt từ đầu -> cuối, cuối -> đầu, giữa -> ...
+    //    for-in, for-of: Mặc định duyệt từ đầu -> cuối mảng.
+
+    //   Các phương thức JS hỗ trợ thao tác với Mảng.
+    //   index  0  1  2  3   4   5   6   7  8  9
+    //   push() : Thêm phần tử vào cuối mảng
+    //   unshift() : Thêm phần tử vào đầu mảng
+    //   shift() : Xóa phần tử  đầu mảng
+    //   pop() : Xóa phần tử  cuối mảng
+    //   splice() : Xóa phần tử theo vị trí index mong muốn.
+    //   sort() : Sắp xếp mảng ().
+    //   concat() : Gộp 2 mảng -> trả về 1 mảng mới.
+    //   join() : Nói các phần tử trong mảng với nhâu -> trả về 1 chuỗi.
+    // let arr = [1, 5, 4, 5, 2];
+    //  alert(arr.indexOf(5));
+    // let arr2 = [10, 9, 8, 7, 6];
+    // let arr3 = arr.concat(arr2);
+    // let str = arr3.join("-");
+    // document.write( str );
+    // arr.sort(function (x, y) {
+    //     return y - x;
+    // });
+
+//  Khai báo mảng 2 chiều.
+//     let arr = [
+//         [1,2,3],
+//         [4,5,6],
+//         [7,8,9]
+//     ] ;
+//     for (let i = 0; i < arr.length; i++){
+//         for (let j = 0; j < arr[i].length; j++){
+//             arr[i][j] = 1;
+//             document.write("Phần tử vị trí i= " + i + " và j= " + j + " có giá trị là: " + arr[i][j] )
+//             document.write("<br>");
+//         }
+//     }
+//     console.log(arr);
+let arr = [1,2,3,4,"aa345345a", "cccc"];
+arr[1] = 9;
+console.log(arr);
+let str = "1234";
+console.log(str);
+</script>
+</html>

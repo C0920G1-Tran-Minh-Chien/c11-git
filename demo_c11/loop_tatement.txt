@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="demo"></p>
+
+<script>
+
+    // <!--  In ra các số từ 1 -> 100  -->
+    // for (biểu thức khởi tạo ; biểu thức điều kiện ; biểu thức tăng giảm)
+    // document.write("****************");
+    // document.write("<br>");
+    // document.write("****************");
+    // document.write("<br>");
+    // document.write("****************");
+    // document.write("<br>");
+    // document.write("****************");
+    // for (let i = 0; i < 5; i++) {
+    //
+    //     for (let j = 0; j < 10; j++) {
+    //         document.write("*");
+    //         break;
+    //     }
+    //     document.write("<br>");
+    //     document.write("VÒng lặp ngoài");
+    //
+    // }
+    // for ( let i = 1;  ; i++ ){
+    //     if (i > 10){
+    //         break;
+    //     }
+    //     alert(i);
+    // }
+
+
+    // 	while ( biểu thức điều kiện ) {
+    //     Khối lệnh lặp
+    //     }
+    // Nhập password , nếu nhập password = 123456 thì hiển thị là "Đúng rồi"
+    // CÒn nhập sai thì bắt nhập lại khi nào đúng thì thôi
+
+    // let i = parseInt(prompt("Nhập mật khẩu? "));
+    // let count = 1;
+    //
+    // while ( i !== 123456 ) {
+    //     // alert("Sai rồi, nhập lại đi: ");
+    //     i = parseInt(prompt("Sai rồi, nhập lại đi: "));
+    //     count++;
+    //     if (count > 3){
+    //         break;
+    //     }
+    // }
+    // if (count < 3) {
+    // alert("Ok đúng rồi!");
+    // }
+    //    do - while
+
+    // let i ;
+    // do {
+    //     // Khối lệnh lặp
+    //      i = parseInt(prompt("Nhập mật khẩu? "));;
+    // } while ( i !== 123456 ) // Biểu thức điều kiện
+
+    // let str = "abcdef";
+
+    // For in và for of duyệt chuỗi hoặc mảng.
+    // for of : duyệt từ đầu đến cuối chuỗi / mảng. và trả về giá trị của từng phần tử.
+    // for in : duyệt từ đầu đến cuối chuỗi / mảng. và trả về vị trí của từng phần tử.
+    // for (let a of str) {
+    //     document.write(a + ", ");
+    // }
+    //
+    // document.write("--------------------------");
+    //
+    //
+    // for (let b in str) {
+    //     document.write(b + ", ");
+    // }
+
+
+</script>
+</body>
+</html>

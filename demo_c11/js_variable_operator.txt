@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+
+    // {
+    //     var x = 10;
+    //     let y = 20;
+    // const PI = 3.142;
+    //     document.write("X Trong scope là: " + x + "<br>");
+    //     document.write("Y Trong scope là: " + y+ "<br>");
+    // }
+    //
+    // let x = 10;
+    //
+    // let y = "10";
+    //
+    // let c = true;
+
+    // document.write(typeof x);
+    // document.write("<br>");
+    // document.write(typeof y);
+    // document.write("<br>");
+    // document.write(typeof c);
+
+//     // == chỉ so sánh giá trị, còn === so sánh cả kiểu dữ liệu
+//     document.write( (x == y) + "<br>" );
+//     document.write( x === y );
+//     document.write("<br>")
+//     // && (và) , || (hoặc) , ! (phủ định).
+//
+// //    Vé trái && Vé phải.
+//     document.write( !(1 === 1 && 2 === 2) );
+
+    let a = 5 ;
+    let b = ++a + a-- ; // a = 6 ; b = 12
+    // a = 5;
+    let c = ++b + ++a + --b + b++;  // c = 13 + 6 + 12 + 12
+    // c = 43
+    alert(c);
+
+
+</script>
+</html>

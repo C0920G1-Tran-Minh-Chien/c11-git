@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="sayHello(8,9,10)">Hello</button>
+<script>
+    // function tenHam(thamSo1, thamSo2,…){
+    //     Khối lệnh thực thi ;
+    // }
+    // function sayHello(toan, ly, hoa) {
+    //     //Có thể gán lại giá trị cho các tham số, sử dụng nwh 1 biến bình thường
+    //     // toan = 100;
+    //     // ly = 90;
+    //     document.write("<br>");
+    //     document.write("Điểm Toán " + toan);
+    //     document.write("<br>");
+    //     document.write("Điểm Lý " + ly);
+    //     document.write("<br>");
+    //     document.write("Điểm Hóa " + hoa);
+    //     document.write("<br>");
+    //     let avg = (toan + ly + hoa )/3;
+    //     document.write(avg);
+    // }
+
+    // Có thể truyền bất kỳ giá tri nào vào, mảng, chuỗi, số,...
+    // sayHello([1,2,3,4],"c11",8);
+
+
+    // function checkPoint(arrPoint) {
+    //
+    //     let avg = (arrPoint[0] + arrPoint[1] + arrPoint[2] )/3;
+    //     // if (avg > 8){
+    //     //     return [toan, ly, hoa];
+    //     // }
+    //     arrPoint.splice(0,1);
+    //     // toanPara = 10;
+    //     // lyPara = 10;
+    //     // hoaPara = 10;
+    //     // arrPoint[0] = 10;
+    //     // arrPoint[1] = 10;
+    //     // arrPoint[2] = 10;
+    //     return avg;
+    //
+    // }
+    //
+    // let toan = parseInt(prompt("Nhập điểm toán!"));
+    // let ly = parseInt(prompt("Nhập điểm lý!"));
+    // let hoa = parseInt(prompt("Nhập điểm hóa!"));
+    //
+    // let arr = [toan, ly, hoa];
+    //
+    // let a = checkPoint(arr);
+    // // document.write("Điểm Toán sau khi gọi hàm checkPoint là : " + toan);
+    // // document.write("<br>");
+    // // document.write("Điểm Lý sau khi gọi hàm checkPoint là : " + ly);
+    // // document.write("<br>");
+    // // document.write("Điểm Hóa sau khi gọi hàm checkPoint là : " + hoa);
+    // document.write("mảng điểm sau khi gọi hàm checkPoint là : " + arr);
+    // document.write("<br>");
+    // document.write("Điểm trung bình sau khi gọi hàm checkPoint là : " + a);
+
+    function func1(a) {
+        if (a === 2) {
+            return 2;
+        }
+        //Đệ quy.
+        return a * func1(a - 1);
+    }
+    alert(func1(6));
+
+//  6 *  5 * 4 * 3 * 2;
+
+//    a = 5;
+//    a = 4
+//    a = 3
+</script>
+</body>
+</html>

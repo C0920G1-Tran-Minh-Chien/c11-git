@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" width="2000" height="1000" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+</body>
+<script>
+
+    let c = document.getElementById("myCanvas");
+    let ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(300, 300, 150 , Math.PI * 1.5, Math.PI * 2);
+    ctx.strokeStyle = "red";
+    ctx.stroke();
+
+
+
+    // <!--  Math  -->
+
+    //      Random số trong khoảng từ 0 -> 1.
+    //      let a = Math.random() * 100;
+    //      alert( a );
+    //      alert( Math.floor(a) );
+    //      alert( Math.round(a) );
+    // Tìm số bé , lớn nhất trong danh sách
+    // alert( Math.min(1, 10, 5, 6) );
+    // alert( Math.max(1, 10, 5, 6) );
+    // Tính căn bậc 2.
+    // alert( Math.sqrt(4))
+    // alert( Math.pow(2, 5) )
+
+    // <!--  Date  -->
+    // Thời gian hiện tại.
+    // let dateOfBirth = new Date( 2003, 11 ,25, 10, 30, 15  );
+    // let today = new Date();
+    // let age = today.getTime() - dateOfBirth.getTime();
+    // age = new Date(age);
+    // document.write("Ngày tháng năm" + age);
+    // age = age.getFullYear() - 1970;
+    // document.write("<br>")
+    // document.write(age);
+
+    // document.write("Năm : " + today.getFullYear())
+    // document.write("<br>")
+    // document.write("Tháng : " + today.getMonth())
+    // document.write("<br>")
+    // document.write("Ngày : " + today.getDate())
+    // document.write("<br>")
+    // document.write("Giờ : " + today.getHours())
+    // document.write("<br>")
+    // document.write("Phút : " + today.getMinutes())
+    // document.write("<br>")
+    // document.write("Giây : " + today.getSeconds())
+    // document.write("<br>")
+    // Tính thời từ 1970-1-1 đến hiện tại; đơn vị mili giây.
+    // document.write(today);
+
+
+</script>
+</html>
