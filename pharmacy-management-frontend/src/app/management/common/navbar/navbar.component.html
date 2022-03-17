@@ -1,0 +1,72 @@
+<div id="header" class="d-flex justify-content-between">
+  <div id="list">
+    <a href="#"><i class="fa fa-bars"></i></a>
+  </div>
+  <ul id="nav">
+    <li>
+      <a href="/">Trang chủ</a>
+    </li>
+    <li>
+      <a href="">
+        Quản lý bán hàng
+        <i class="icon1 fa fa-caret-down ml-2"></i>
+      </a>
+      <ul class="subnav">
+        <li><a routerLink="/sales/sales-invoice">Hóa đơn bán hàng</a></li>
+        <li><a routerLink="/sale">Bán lẻ</a></li>
+        <li><a routerLink="/customer-refund">Khách hoàn trả</a></li>
+        <li><a routerLink="/wholesale">Bán sỉ</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="">
+        Quản lý kho bãi
+        <i class="icon1 fa fa-caret-down ml-2"></i>
+      </a>
+      <ul class="subnav">
+        <li><a routerLink="/management/warehouse/import/list" *ngIf="flag">Quản lý nhập kho</a></li>
+        <li><a routerLink="/drug/list">Danh sách thuốc</a></li>
+        <li><a routerLink="/management/warehouse/warehouse-export/export-bill">Quản lý xuất kho</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="" *ngIf="flag">
+        Quản lý thông tin
+        <i class="icon1 fa fa-caret-down ml-2"></i>
+      </a>
+      <ul class="subnav">
+        <li><a routerLink="/customer/customer-list">Khách hàng</a></li>
+        <li><a routerLink="/manufacturer/list">Nhà cung cấp</a></li>
+        <li><a href="/employee">Nhân viên</a></li>
+        <li><a href="/prescription/prescription-list">Toa thuốc</a></li>
+        <li><a href="/management/management-information/account/list">Tài khoản</a></li>
+        <li><a routerLink="/management/management-information/drugGroup">Nhóm thuốc</a></li>
+      </ul>
+    </li>
+    <li>
+      <a routerLink="/management/information-lookup">
+        Tra cứu
+      </a>
+    </li>
+    <li>
+      <a href="" id="bao-cao" *ngIf="flag">
+        Báo cáo
+        <i class="icon1 fa fa-caret-down ml-2"></i>
+      </a>
+      <ul class="subnav">
+        <li><a href="/report">Báo cáo</a></li>
+        <li><a href="/report/chart">Biểu đồ Thống kê</a></li>
+      </ul>
+    </li>
+      <li style="margin-left: 370px">
+        <a href="" >
+          {{username}}
+          <i class="icon1 fa fa-caret-down ml-2"></i>
+        </a>
+        <ul class="subnav">
+          <li style="width: 160px"><a (click)="logout()">Đăng xuất</a></li>
+        </ul>
+      </li>
+  </ul>
+</div>
+
